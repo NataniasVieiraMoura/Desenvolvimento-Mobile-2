@@ -1,0 +1,70 @@
+Atividade: Desenvolvimento de Sistema Básico usando CRUD
+
+Objetivo: O objetivo dessa atividade é desenvolver um sistema simples utilizando as operações CRUD (Create, Read, Update, Delete) para gerenciar tarefas do dia a dia. O sistema permitirá que o usuário crie, visualize, edite e apague suas tarefas diárias, proporcionando uma forma de organização pessoal.
+
+O que é o CRUD? CRUD é um acrônimo para quatro operações básicas que são essenciais para a manipulação de dados em um banco de dados. Cada letra do termo CRUD representa uma operação fundamental:
+
+C (Create): Criar novos registros. No caso do nosso sistema, isso significa adicionar uma nova tarefa.
+D (Delete): Excluir um registro. O usuário pode remover uma tarefa do sistema.
+
+Requisitos da Atividade:
+
+Data de vencimento
+Status da tarefa (pendente, em andamento, concluída)
+
+
+
+Passos para a Implementação:
+Configuração do Banco de Dados:
+Crie uma tabela para armazenar as informações das tarefas (título, descrição, data de vencimento, status, prioridade).
+Se estiver utilizando um banco de dados relacional, crie as tabelas com os campos necessários. Caso utilize um banco NoSQL, defina a estrutura dos documentos.
+Desenvolvimento do Back-End:
+Crie um servidor web básico utilizando o framework escolhido (Flask ou Express.js).
+Implemente as rotas para cada operação do CRUD:
+POST: Para adicionar tarefas (Create).
+GET: Para listar e visualizar tarefas (Read).
+PUT: Para editar tarefas (Update).
+DELETE: Para excluir tarefas (Delete).
+Desenvolvimento do Front-End:
+Crie páginas HTML com formulários para adicionar, editar e excluir tarefas.
+Exiba as tarefas cadastradas em uma tabela ou lista.
+Testes e Validação:
+Teste todas as funcionalidades para garantir que as operações de CRUD funcionem corretamente.
+Valide os dados inseridos (por exemplo, não permitir que o título da tarefa seja vazio).
+Documentação do Projeto:
+Descreva como configurar e executar o projeto (instruções de instalação).
+Explique as funcionalidades implementadas e forneça capturas de tela (se possível).
+Informe as tecnologias utilizadas e como configurar o ambiente de desenvolvimento.
+
+Documentação do Projeto:
+Introdução:
+Este projeto consiste em um sistema simples de gerenciamento de tarefas diárias utilizando a metodologia CRUD. Ele visa ajudar o usuário a organizar e controlar suas atividades.
+Requisitos Técnicos:
+Linguagens: Python ou JavaScript
+Frameworks: Flask (Python) ou Express.js (Node.js)
+Banco de Dados: SQLite, MySQL ou MongoDB
+Clone o repositório no GitHub:
+Testes:
+Acesse a aplicação no navegador em http://localhost:5000 (para Flask) ou http://localhost:3000 (para Express) e teste as funcionalidades de CRUD.
+
+Link para o GitHub:
+O repositório do GitHub onde os alunos devem submeter o código será o seguinte:
+https://github.com/usuario/projeto-crud-tarefas
+
+Critérios de Avaliação:
+Funcionamento do CRUD: O sistema deve realizar as operações de criar, ler, editar e excluir tarefas corretamente.
+Interface: A interface deve ser simples e funcional, permitindo uma interação clara.
+Organização do Código: O código deve ser bem estruturado, com funções e rotas claras.
+Documentação: A documentação do projeto deve ser clara e detalhada, com instruções de uso e informações sobre o sistema.
+Funcionalidades Extras: Implementação de funcionalidades adicionais como filtros, pesquisa e definição de prioridade.
+
+
+
+
+
+
+
+
+
+
+	
